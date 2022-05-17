@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullStack con Js</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body style="color:greenyellow; background-color: cornflowerblue;">
+    <h1>Lorem ipsum dolor sit.</h1>
+
+    <!--strong marca algo como MUY importante para el navegador, por lo general va a en los parrafos, queda en negrita-->
+    <!--em marca algo como importante, queda en italic-->
+
+    <p>Lorem ipsum dolor <strong>amet consectetur</strong> adipisicing elit. Sequi culpa sunt voluptatibus voluptate beatae, <em>similique veniam</em> ab reprehenderit facere magnam laudantium. Culpa eligendi assumenda aliquam impedit ipsum obcaecati, illo iste!</p>
+
+    <h2>Listas</h2>
+
+    <ul>
+        <li>Lechuga</li>
+        <li>Tomate</li>
+        <li>Limon</li>
+    </ul>
+
+    <ol>
+        <li>Paso 1</li>
+        <li>Paso 2</li>
+        <li>Paso 3</li>
+    </ol>
+
+    <h2>Tablas</h2>
+
+    <!--Estas tablas son estáticas, para cambiarlas hay que editar el HTML, funciona mejor para información que perdura como la superficie de un territorio. Para armar una tabla dinámica es mejor usar Node, por ejemplo-->
+    <!--td es tabledata, una celda-->
+    <!--tr es la fila, dentro van los td-->
+    <!--th tablehead, el encabezado-->
+
+    <Table>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+        </tr>
+        <tr>
+            <td>Campo 1</td>
+            <td>Campo 2</td>
+        </tr>
+        <tr>
+            <td>Campo 3</td>
+            <td>Campo 4</td>
+        </tr>
+    </Table>
+
+    <h2>Enlaces</h2>
+
+    <!--_blank abre el enlace en una pestaña nueva-->
+    <!--ojo con poner solo / para ir a la main page, si el index no esta en la carpeta raíz vas a terminar muy atras-->
+
+    <a href="https://google.com" target="_blank">Google</a>
+    <a href="newpage.html">New Page</a>
+    <a href="https://google.com" target="_blank"><img src="img/paisaje.png"></a>
+    <iframe="" src=""></iframe>
+
+    <!--enctype se usa para que envien multimedia a la base de datos, como por ejemplo un cv-->
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre-completo" id="nombre" placeholder="Ingrese su nombre" value="">
+    </form>
+
+    <p style="color: red;">Lorem ipsum dolor sit</p>
+
+</body>
+</html>
